@@ -6,7 +6,7 @@
         {
             if (parameters.Length != 3)
             {
-                throw new ArgumentException("Triangle requires 3 parameters (sideA, sideB, sideC).");
+                throw new ArgumentException("Ошибка параметров сторон треугольника");
             }
 
             double a = parameters[0];
@@ -26,7 +26,7 @@
         {
             if (parameters.Length != 3)
             {
-                throw new ArgumentException("Triangle requires 3 parameters (sideA, sideB, sideC).");
+                throw new ArgumentException("Ошибка параметров сторон треугольника");
             }
 
             double a = parameters[0];
