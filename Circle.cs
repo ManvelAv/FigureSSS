@@ -2,7 +2,7 @@
 {
     public class Circle : ICircle
     {
-        private const double PI = 3.1415;
+        private const double PI = Math.PI;
 
         /// <summary>
         /// Вычисляет площать круга по радиусу
